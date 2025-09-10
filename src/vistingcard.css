@@ -1,0 +1,92 @@
+.parent{
+    width: 300px;
+    height: 170px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: rgba(79, 97, 121, 0.94);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 5px 13px 4px grey;
+}
+.box{
+    width: 300px;
+    height: 170px;
+    border: 2px groove white;
+    border-top-left-radius: 140px;
+    border-top-right-radius: 150px;
+    background-color: rgba(209, 200, 200, 0.364);
+    position: absolute;
+    top: 10px;
+    z-index: 2;
+    opacity: 0.1;
+}
+.child-1{
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 9px;
+    left: 20px;
+}
+.child-2{
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 95px;
+    left: 10px;
+}
+.small{
+    color: white;
+    font-size: 6px;
+    position: absolute;
+    top: 115px;
+    left: 12px;
+}
+.child{
+    color: white;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+}
+.child-3{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 0, 0.779);
+    position: absolute;
+    top: 110px;
+    left: 215px;
+}
+.child-4{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(255, 166, 0, 0.868);
+    position: absolute;
+    top: 110px;
+    left: 240px;
+}
+.child-5{
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    top: 148px;
+    left: 217px;
+}
+.child-6{
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 150px;
+    position: absolute;
+    top: -203px;
+    left: 100px;
+    opacity: 0.6;
+    z-index: 1;
+}
+.child-7{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 70px;
+    left: 235px;
+}
