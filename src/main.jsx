@@ -8,11 +8,11 @@ import { createRoot } from 'react-dom/client'
 // import ImagePath2 from './ImagePath2.jsx'
 // import Task1 from './Task1.jsx'
 // import Npmpack from './npmpack.jsx'
-import TypingTest from './TypingText'
-
+// import TypingTest from './TypingText'
+import Dashboard from './Task2'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  <TypingTest />
+  <Dashboard />
   </StrictMode>,
 )
 
